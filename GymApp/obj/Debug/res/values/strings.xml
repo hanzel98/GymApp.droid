@@ -1,0 +1,1 @@
+<resources><string name="app_name">GymApp</string><style name="MyTheme3" parent="android:Theme.Material.Light.DarkActionBar"><!-- Override the android colour scheme --><item name="android:colorPrimary">#00BCD4</item><item name="android:statusBarColor">#0097A7</item><item name="android:windowContentOverlay">@null</item><item name="android:elevation">5dp</item></style></resources>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+  <TabHost
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:minWidth="25px"
+      android:minHeight="25px"
+      android:id="@+id/tabHost1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout0">
+      <TabWidget
+          android:id="@android:id/tabs"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="#00BCD4" />
+      <FrameLayout
+          android:id="@android:id/tabcontent"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+        <ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:id="@+id/linearLayout1">
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+            <TextView
+                android:id="@+id/Nombre"
+                android:text="Nombre: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp" />
+            <TextView
+                android:text="Datos Antropométricos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#000000"
+                android:layout_marginTop="13dp" />
+            <TextView
+                android:text="Peso: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Peso"
+                android:textColor="#000000"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CFD8DC"
+                android:elevation="0dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <TextView
+                android:text="Porcentaje de grasa: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/PorcentajeDeGrasa"
+                android:textColor="#000000"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CFD8DC"
+                 android:elevation="0dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <TextView
+                android:text="Porcentaje de agua: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/PorcentajeDeAgua"
+                android:textColor="#000000"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CFD8DC"
+                android:elevation="0dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <TextView
+                android:text="Indice de masa corporal: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/IndiceDeMasaCorporal"
+                android:textColor="#000000"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CFD8DC"
+                 android:elevation="0dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <TextView
+                android:text="Medidas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <TextView
+                android:text="Pecho: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Pecho"
+                android:textColor="#000000"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CFD8DC"
+                 android:elevation="0dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <TextView
+                android:text="Espalda: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Espalda"
+                android:textColor="#000000"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CFD8DC"
+                 android:elevation="0dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <TextView
+                android:text="Brazo: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Brazo"
+                android:textColor="#000000"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CFD8DC"
+                 android:elevation="0dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <TextView
+                android:text="Cintura: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Cintura"
+                android:textColor="#000000"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CFD8DC"
+                 android:elevation="0dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <TextView
+                android:text="Abdomen: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Abdomen"
+                android:textColor="#000000"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CFD8DC"
+                 android:elevation="0dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <TextView
+                android:text="Cadera: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Cadera"
+                android:textColor="#000000"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CFD8DC"
+                 android:elevation="0dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <TextView
+                android:text="Muslo: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Muslo"
+                android:textColor="#000000"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CFD8DC"
+                 android:elevation="0dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <TextView
+                android:text="Pantorrilla: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Pantorrilla"
+                android:textColor="#000000"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#CFD8DC"
+                 android:elevation="0dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp" />
+          </LinearLayout>
+        </ScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout2"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:background="#ffffff">
+          <Button
+              android:text="Button2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/button2" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout3"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:background="#ffffff">
+          <Button
+              android:text="Button3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/button3" />
+        </LinearLayout>
+      </FrameLayout>
+    </LinearLayout>
+  </TabHost>
+</LinearLayout>
