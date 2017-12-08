@@ -10,7 +10,7 @@ namespace GymApp
     [Activity(Theme= "@style/MyTheme3", Label = "GymApp", MainLauncher = true)]
     public class MainActivity : Activity
     {
-
+        public static string id = "";
         private Button btnIngresar;
         public static  string Usuario;
         public static string Contraseña;
@@ -44,7 +44,27 @@ namespace GymApp
             if (!Usuario.Equals("") && !Contraseña.Equals(""))
             {
                 Toast.MakeText(this, "Comprobando credenciales", ToastLength.Short).Show();
-                return true;
+                
+                try
+                {
+                    //conexion Mysql 
+                    MySQLCon db = new MySQLCon();
+                    id= db.VerificaUsuarioYContraseña(Usuario, Contraseña);
+                }
+                catch (Exception ex)
+                {
+                    Toast.MakeText(this, "Error: " + ex.Message, ToastLength.Short).Show();
+                }
+
+                if (!id.Equals("0") && !id.Equals("") && !id.Equals(" "))
+                {
+                    return true;
+                }
+                else
+                {
+                    Toast.MakeText(this, "Usuario o Contraseña Inválido", ToastLength.Long).Show();
+                }
+                return false;
             }
             else
             {

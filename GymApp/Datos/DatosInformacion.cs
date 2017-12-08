@@ -1,16 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-
-namespace GymApp
+﻿namespace GymApp
 {
     public class DatosInformacion
     {
@@ -27,5 +15,15 @@ namespace GymApp
         public string Cadera { get; set; }
         public string Muslo { get; set; }
         public string Pantorrilla { get; set; }
+
+        public string FechaDeUltimoPago { get; set; }
+        public string FechaDePagoSiguiente { get; set; }
+        public string DíasRestantes { get; set; }
+
+        public string NombreRutina { get; set; }
+        public string NombreEjercicio { get; set; }
+        public string Series { get; set; }
+        public string Descanso { get; set; }
+        public string Repeticiones { get; set; }
     }
 }

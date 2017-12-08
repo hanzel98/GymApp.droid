@@ -58,11 +58,12 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdminUser.cs" />
-    <Compile Include="DatosInformacion.cs" />
-    <Compile Include="Index.cs" />
-    <Compile Include="MainActivity.cs" />
-    <Compile Include="MySQLCon.cs" />
+    <Compile Include="Activities\Rutina_layout.cs" />
+    <Compile Include="Datos\DatosInformacion.cs" />
+    <Compile Include="Activities\Index.cs" />
+    <Compile Include="Activities\MainActivity.cs" />
+    <Compile Include="ConexionMySQL\MySQLCon.cs" />
+    <Compile Include="Datos\DatoUserPass.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -75,6 +76,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\Index.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Rutina.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

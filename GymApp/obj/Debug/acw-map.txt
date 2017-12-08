@@ -1,3 +1,7 @@
+GymApp.Rutina_layout, GymApp;md52aa53cd7dcc0f82021799b5e1306c0d7.Rutina_layout
+GymApp.Rutina_layout, GymApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52aa53cd7dcc0f82021799b5e1306c0d7.Rutina_layout
+GymApp.Rutina_layout;md52aa53cd7dcc0f82021799b5e1306c0d7.Rutina_layout
+gymapp.Rutina_layout;md52aa53cd7dcc0f82021799b5e1306c0d7.Rutina_layout
 GymApp.Index, GymApp;md52aa53cd7dcc0f82021799b5e1306c0d7.Index
 GymApp.Index, GymApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52aa53cd7dcc0f82021799b5e1306c0d7.Index
 GymApp.Index;md52aa53cd7dcc0f82021799b5e1306c0d7.Index

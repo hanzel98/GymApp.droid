@@ -21,32 +21,40 @@ public final class R {
         public static final int Brazo=0x7f07000a;
         public static final int Cadera=0x7f07000d;
         public static final int Cintura=0x7f07000b;
+        public static final int Descanso=0x7f07001f;
+        public static final int DiasRestantes=0x7f070015;
         public static final int Espalda=0x7f070009;
+        public static final int FechaDePagoSiguiente=0x7f070014;
+        public static final int FechaDeUltimoPago=0x7f070013;
         public static final int IndiceDeMasaCorporal=0x7f070007;
         public static final int Muslo=0x7f07000e;
         public static final int Nombre=0x7f070003;
+        public static final int NombreEjercicio=0x7f07001c;
+        public static final int NombreRutina=0x7f07001b;
+        public static final int NumeroRepeticiones=0x7f07001e;
+        public static final int NumeroSeries=0x7f07001d;
         public static final int Pantorrilla=0x7f07000f;
         public static final int Pecho=0x7f070008;
         public static final int Peso=0x7f070004;
         public static final int PorcentajeDeAgua=0x7f070006;
         public static final int PorcentajeDeGrasa=0x7f070005;
-        public static final int btnIngresar=0x7f070018;
-        public static final int button2=0x7f070011;
-        public static final int button3=0x7f070013;
-        public static final int espacioContraseña=0x7f070017;
-        public static final int espacioUsuario=0x7f070016;
-        public static final int imageView2=0x7f070014;
+        public static final int btnIngresar=0x7f07001a;
+        public static final int btnRutina1=0x7f070011;
+        public static final int espacioContraseña=0x7f070019;
+        public static final int espacioUsuario=0x7f070018;
+        public static final int imageView2=0x7f070016;
         public static final int linearLayout0=0x7f070001;
         public static final int linearLayout1=0x7f070002;
         public static final int linearLayout2=0x7f070010;
         public static final int linearLayout3=0x7f070012;
         public static final int tabHost1=0x7f070000;
-        public static final int textView1=0x7f070015;
+        public static final int textView1=0x7f070017;
     }
     public static final class layout {
         public static final int index=0x7f040000;
         public static final int login=0x7f040001;
         public static final int main=0x7f040002;
+        public static final int rutina=0x7f040003;
     }
     public static final class mipmap {
         public static final int iconogymapp=0x7f030000;
